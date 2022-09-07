@@ -1,0 +1,54 @@
+//
+//  GraphCell.swift
+//  Asteroid
+//
+//  Created by Sreeni E V on 06/09/22.
+//
+
+import UIKit
+import FLCharts
+
+class GraphCell: UITableViewCell {
+
+    var graphdata : [MultiPlotable] = []
+                      
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        contentView.backgroundColor = .clear
+    }
+
+    func configureCell(dates:[String],count:[CGFloat]){
+        
+        for i in 0..<dates.count{
+            var s = MultiPlotable(name: "", values: [])
+            s.name = dates[i]
+            s.values = [count[i]]
+            graphdata.append(s)
+        }
+        
+        let chartData = FLChartData(title: "Asteroids",
+                                    data: graphdata,
+                                    legendKeys: [
+                        Key(key: "F1", color: .Gradient.purpleCyan),
+                        Key(key: "F2", color: .green),
+                        Key(key: "F3", color: .Gradient.sunset)],
+                                     unitOfMeasure: "Count")
+        
+        let chart = FLChart(data: chartData, type: .bar())
+        
+        let card = FLCard(chart: chart, style: .rounded)
+        card.showAverage = true
+        card.showLegend = false
+        
+        contentView.addSubview(card)
+        card.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+          card.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+          card.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
+          card.heightAnchor.constraint(equalToConstant: 350),
+          card.widthAnchor.constraint(equalToConstant: contentView.bounds.width-20)
+        ])
+    }
+    
+}

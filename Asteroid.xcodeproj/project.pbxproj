@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1087AC3C28C652CD0074889E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1087AC3B28C652CD0074889E /* AppDelegate.swift */; };
+		1087AC3E28C652CD0074889E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1087AC3D28C652CD0074889E /* SceneDelegate.swift */; };
+		1087AC4028C652CD0074889E /* NeoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1087AC3F28C652CD0074889E /* NeoViewController.swift */; };
+		1087AC4328C652CD0074889E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1087AC4128C652CD0074889E /* Main.storyboard */; };
+		1087AC4528C652DC0074889E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1087AC4428C652DC0074889E /* Assets.xcassets */; };
+		1087AC4828C652DC0074889E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1087AC4628C652DC0074889E /* LaunchScreen.storyboard */; };
+		10B41AE228C6606D000602F2 /* NeoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B41AE128C6606D000602F2 /* NeoModel.swift */; };
+		10B41AE628C66587000602F2 /* AsteroidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B41AE428C66587000602F2 /* AsteroidCell.swift */; };
+		10B41AE728C66587000602F2 /* AsteroidCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10B41AE528C66587000602F2 /* AsteroidCell.xib */; };
+		10B41AEE28C67BBA000602F2 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B41AED28C67BBA000602F2 /* Date+Extension.swift */; };
+		10B41AF028C70641000602F2 /* MyAsteroid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B41AEF28C70641000602F2 /* MyAsteroid.swift */; };
+		10B41AF328C72492000602F2 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B41AF228C72492000602F2 /* DateViewController.swift */; };
+		10B41AF528C74AA2000602F2 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B41AF428C74AA2000602F2 /* GraphViewController.swift */; };
+		10B41AFA28C74C69000602F2 /* GraphCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B41AF828C74C69000602F2 /* GraphCell.swift */; };
+		10B41AFB28C74C69000602F2 /* GraphCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10B41AF928C74C69000602F2 /* GraphCell.xib */; };
+		2D67525F4F3703CFF67CAC6E /* Pods_Asteroid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352001156E6B696BC7559698 /* Pods_Asteroid.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1087AC3828C652CD0074889E /* Asteroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1087AC3B28C652CD0074889E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1087AC3D28C652CD0074889E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1087AC3F28C652CD0074889E /* NeoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoViewController.swift; sourceTree = "<group>"; };
+		1087AC4228C652CD0074889E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1087AC4428C652DC0074889E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1087AC4728C652DC0074889E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1087AC4928C652DC0074889E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10B41AE128C6606D000602F2 /* NeoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoModel.swift; sourceTree = "<group>"; };
+		10B41AE428C66587000602F2 /* AsteroidCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidCell.swift; sourceTree = "<group>"; };
+		10B41AE528C66587000602F2 /* AsteroidCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AsteroidCell.xib; sourceTree = "<group>"; };
+		10B41AED28C67BBA000602F2 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		10B41AEF28C70641000602F2 /* MyAsteroid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAsteroid.swift; sourceTree = "<group>"; };
+		10B41AF228C72492000602F2 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		10B41AF428C74AA2000602F2 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		10B41AF828C74C69000602F2 /* GraphCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCell.swift; sourceTree = "<group>"; };
+		10B41AF928C74C69000602F2 /* GraphCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraphCell.xib; sourceTree = "<group>"; };
+		352001156E6B696BC7559698 /* Pods_Asteroid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Asteroid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A354FD43A6990CA06063F3 /* Pods-Asteroid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asteroid.release.xcconfig"; path = "Target Support Files/Pods-Asteroid/Pods-Asteroid.release.xcconfig"; sourceTree = "<group>"; };
+		6E562A4AEB69065ABE103DB1 /* Pods-Asteroid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asteroid.debug.xcconfig"; path = "Target Support Files/Pods-Asteroid/Pods-Asteroid.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1087AC3528C652CD0074889E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D67525F4F3703CFF67CAC6E /* Pods_Asteroid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1087AC2F28C652CD0074889E = {
+			isa = PBXGroup;
+			children = (
+				1087AC3A28C652CD0074889E /* Asteroid */,
+				1087AC3928C652CD0074889E /* Products */,
+				CB145F1478D56F0A7AC9EBE5 /* Pods */,
+				FD5F8EAA0A9EC13126B16206 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1087AC3928C652CD0074889E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1087AC3828C652CD0074889E /* Asteroid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1087AC3A28C652CD0074889E /* Asteroid */ = {
+			isa = PBXGroup;
+			children = (
+				1087AC3B28C652CD0074889E /* AppDelegate.swift */,
+				1087AC3D28C652CD0074889E /* SceneDelegate.swift */,
+				10B41AF128C72477000602F2 /* ViewControllers */,
+				1087AC4128C652CD0074889E /* Main.storyboard */,
+				10B41AE328C664CC000602F2 /* Cells */,
+				10B41ADE28C65D4E000602F2 /* Model */,
+				10B41AEC28C67BA1000602F2 /* Extensions */,
+				1087AC4428C652DC0074889E /* Assets.xcassets */,
+				1087AC4628C652DC0074889E /* LaunchScreen.storyboard */,
+				1087AC4928C652DC0074889E /* Info.plist */,
+			);
+			path = Asteroid;
+			sourceTree = "<group>";
+		};
+		10B41ADE28C65D4E000602F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10B41AE128C6606D000602F2 /* NeoModel.swift */,
+				10B41AEF28C70641000602F2 /* MyAsteroid.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10B41AE328C664CC000602F2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				10B41AE428C66587000602F2 /* AsteroidCell.swift */,
+				10B41AF828C74C69000602F2 /* GraphCell.swift */,
+				10B41AF928C74C69000602F2 /* GraphCell.xib */,
+				10B41AE528C66587000602F2 /* AsteroidCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		10B41AEC28C67BA1000602F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10B41AED28C67BBA000602F2 /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		10B41AF128C72477000602F2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1087AC3F28C652CD0074889E /* NeoViewController.swift */,
+				10B41AF228C72492000602F2 /* DateViewController.swift */,
+				10B41AF428C74AA2000602F2 /* GraphViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CB145F1478D56F0A7AC9EBE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E562A4AEB69065ABE103DB1 /* Pods-Asteroid.debug.xcconfig */,
+				50A354FD43A6990CA06063F3 /* Pods-Asteroid.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD5F8EAA0A9EC13126B16206 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				352001156E6B696BC7559698 /* Pods_Asteroid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1087AC3728C652CD0074889E /* Asteroid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1087AC4C28C652DC0074889E /* Build configuration list for PBXNativeTarget "Asteroid" */;
+			buildPhases = (
+				1B069537978BD4EE23F43C38 /* [CP] Check Pods Manifest.lock */,
+				1087AC3428C652CD0074889E /* Sources */,
+				1087AC3528C652CD0074889E /* Frameworks */,
+				1087AC3628C652CD0074889E /* Resources */,
+				8B3776532F6B9A4CE816B9B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asteroid;
+			productName = Asteroid;
+			productReference = 1087AC3828C652CD0074889E /* Asteroid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1087AC3028C652CD0074889E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1087AC3728C652CD0074889E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1087AC3328C652CD0074889E /* Build configuration list for PBXProject "Asteroid" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1087AC2F28C652CD0074889E;
+			productRefGroup = 1087AC3928C652CD0074889E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1087AC3728C652CD0074889E /* Asteroid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1087AC3628C652CD0074889E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B41AE728C66587000602F2 /* AsteroidCell.xib in Resources */,
+				1087AC4828C652DC0074889E /* LaunchScreen.storyboard in Resources */,
+				1087AC4528C652DC0074889E /* Assets.xcassets in Resources */,
+				10B41AFB28C74C69000602F2 /* GraphCell.xib in Resources */,
+				1087AC4328C652CD0074889E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B069537978BD4EE23F43C38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Asteroid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B3776532F6B9A4CE816B9B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Asteroid/Pods-Asteroid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Asteroid/Pods-Asteroid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Asteroid/Pods-Asteroid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1087AC3428C652CD0074889E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B41AF528C74AA2000602F2 /* GraphViewController.swift in Sources */,
+				10B41AF328C72492000602F2 /* DateViewController.swift in Sources */,
+				10B41AE228C6606D000602F2 /* NeoModel.swift in Sources */,
+				1087AC4028C652CD0074889E /* NeoViewController.swift in Sources */,
+				10B41AE628C66587000602F2 /* AsteroidCell.swift in Sources */,
+				1087AC3C28C652CD0074889E /* AppDelegate.swift in Sources */,
+				10B41AF028C70641000602F2 /* MyAsteroid.swift in Sources */,
+				10B41AEE28C67BBA000602F2 /* Date+Extension.swift in Sources */,
+				10B41AFA28C74C69000602F2 /* GraphCell.swift in Sources */,
+				1087AC3E28C652CD0074889E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1087AC4128C652CD0074889E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1087AC4228C652CD0074889E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1087AC4628C652DC0074889E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1087AC4728C652DC0074889E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1087AC4A28C652DC0074889E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1087AC4B28C652DC0074889E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1087AC4D28C652DC0074889E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E562A4AEB69065ABE103DB1 /* Pods-Asteroid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Asteroid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1087AC4E28C652DC0074889E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A354FD43A6990CA06063F3 /* Pods-Asteroid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Asteroid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1087AC3328C652CD0074889E /* Build configuration list for PBXProject "Asteroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1087AC4A28C652DC0074889E /* Debug */,
+				1087AC4B28C652DC0074889E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1087AC4C28C652DC0074889E /* Build configuration list for PBXNativeTarget "Asteroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1087AC4D28C652DC0074889E /* Debug */,
+				1087AC4E28C652DC0074889E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1087AC3028C652CD0074889E /* Project object */;
+}
